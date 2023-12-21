@@ -1,8 +1,8 @@
 <?php
 // deklarasi parameter yangdibutuhkan
 $server = "localhost";
-$user = "laparaga";
-$pass = "12345";
+$user = "root";
+$pass = "";
 $db = "laparaga_bks";
 $koneksi = mysqli_connect($server, $user, $pass, $db);
 // if(!$koneksi)
